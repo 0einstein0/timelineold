@@ -15,14 +15,17 @@
   cursor: pointer;
   outline: none;
 }
+html{
+  background: url('/assets/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 body {
   font: normal 16px/1.5 "Bebas Neue", sans-serif;
-  background: rgb(27, 27, 27);
-  color: #fff;
-  background-image: url('/assets/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+background: transparent;
   font-family: "Bebas Neue", sans-serif;
 }
 
